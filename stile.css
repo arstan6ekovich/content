@@ -1,0 +1,68 @@
+.block {
+    width: 500px;
+    height: 500px;
+    background:red;
+    transition: 1s;
+}
+
+
+.block:hover{
+    background: green;
+}
+
+
+
+.button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+
+.active{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+
+.active:active{
+    background: blue;
+}
+
+.focus{
+    padding: 20px 30px;
+    border: none;
+    background: orange;
+}
+
+
+.input.focus {
+    background: blue;
+}
+
+
+.decription {
+    font-size: 30px;
+}
+
+.decription::first-line {
+    color: green;
+}
+
+.decription::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+
+
+
+
